@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    /* background-color: hsl(346deg 17% 70%); */
+    background-color: rgba(25, 167, 119, 0.404);
+    display: flex;
+}
+
+#part1{
+    height: 100%;
+    width: 26%;
+
+}
+#part2{
+    height: 100%;
+    width: 68%;
+    background-image: url(/LandingPage1/model1.avif);
+    background-size: cover;
+    background-position: center;
+}
+#overlay{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(192, 165, 172, 0.507);
+}
+#part3{
+    height: 100%;
+    width: 7%;
+}
+
+#text-div{
+    /* height: 300px; */
+    position: absolute;
+    width: 400px;
+    /* background-color: red; */
+    left: 10%;
+    top: 60%;
+    transform: translate(-8%, -50%);
+}
+
+#text-div>h1{
+    font-size: 87px;
+    font-family: gilroy;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 80px;
+    color: white;
+    letter-spacing: 10px;
+}
+
+#small-img-div{
+    height: 400px;
+    width: 300px;
+    /* background-color: red; */
+    background-image: url(/LandingPage1/model2.avif);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translate(0, -50%)
+}
+
+#overlay2{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(192, 165, 172, 0.404);
+}
+
+#vertical-text{
+    position: absolute;
+    transform: rotate(90deg);
+    right: -44%;
+    transform-origin: 0% 0%;
+    /* width: 100%; */
+    /* background-color: red; */
+}
+
+#vertical-text h1{
+    font-size: 75px;
+    font-weight: 400;
+    font-family: "Anton", sans-serif;
+    -webkit-text-stroke-width:2px;
+    -webkit-text-stroke-color: #ffff;
+    color: transparent;
+    letter-spacing: 12px;
+    text-transform: uppercase;
+}
+
+#nav{
+    position: absolute;
+    width: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: red; */
+    margin: 2% 8%;
+    color: #ffff;
+}
+
+#nav img{
+    height: 100px;
+}
+
+#nav h5{
+    font-size: 20px;
+}
